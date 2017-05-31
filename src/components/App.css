@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+header{
+  background-color: rgb(39,56,82);
+}
+
+body{
+	margin: 0px;
+}
+
+.app {
+  /*
+   * Typography
+   * ======================================================================== */
+  background-color: rgb(39,56,82);
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+
+  /*
+   * Theme Default Colors
+  */
+  --input-text-highlight-color: rgb(39,56,82);
+  --input-text-bottom-border-color: rgb(42, 141, 142);
+  --appbar-color: rgb(39,56,82);
+  --appbar-contrast: rgb(42, 141, 142);
+  --button-neutral-color: rgb(42, 141, 142);
+}

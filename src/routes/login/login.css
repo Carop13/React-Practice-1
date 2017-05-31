@@ -1,0 +1,30 @@
+
+.login {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+	min-width: 350px;
+    max-width: 350px;
+	--card-padding: 10px 0;
+	--card-background-color: transparent;
+	--card-border: none;
+	--shadow-2p: none !important;
+	--color-text: #fff;
+}
+
+.cardActions{
+	justify-content: center !important;
+	background-color: rgb(42, 141, 142);
+}
+
+.cardActions button{
+	width: 100%;
+}
+
+.center{
+	text-align: center;
+}

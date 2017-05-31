@@ -26,5 +26,3 @@ Start the development server (changes will now update live in browser)
 
 To view your project, go to: [http://localhost:3000/](http://localhost:3000/)
 
-# React-Practice-1
-# React-Practice-1

@@ -1,0 +1,24 @@
+
+.dashboard{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #fff;
+}
+.dashboard table{
+	width: 80%;
+	text-align: center;
+}
+
+.dashboard table td, .dashboard table th{
+	border-bottom: 1px solid #ddd;
+}
+
+.content{
+	color: black;
+	padding: 50px;
+}
+
+.navbar{
+	--button-neutral-color-contrast: #fff;
+}
